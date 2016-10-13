@@ -1,0 +1,7 @@
+name = Live Testing
+description = Channels the simpletest framework to run on the current live database directly, instead of a temporary one.
+package = Development
+core = 7.x
+files[] = drupal_web_test_case_live.php
+
+dependencies[] = simpletest
